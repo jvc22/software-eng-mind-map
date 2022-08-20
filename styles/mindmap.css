@@ -3,3 +3,9 @@ body {
     margin: 0;
     pointer-events: none;
 }
+
+@media print {
+    html, body {
+      display: none;
+    }
+}
