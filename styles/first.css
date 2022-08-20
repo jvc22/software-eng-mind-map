@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121214;
+    -webkit-font-smoothing: antialiased;
+}
+
+section.screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #101012, #131315);
+    box-shadow:  5px 5px 10px #0f0f11,
+                 -5px -5px 10px #151517;
+}
+
+div.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+    background: #885df5;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+img#user {
+    height: 99%;
+    width: 99%;
+    border: #885df5 solid 3px;
+    border-radius: 50%;
+}
+
+div h1 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 15px;
+}
+
+div p {
+    color: #8D8D99;
+    text-align: center;
+    margin-top: 8px;
+}
+
+div.links {
+    margin: 15px 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+a {
+    transition: opacity 0.25s;
+}
+
+a:hover {
+    opacity: 40%;
+}
+
+p.signature {
+    text-align: center;
+    color: #8D8D99;
+    font-family: 'Handsome Boys', sans-serif;
+    font-size: 44px;
+}
+
+a.btn {
+    margin-top: 25px;
+    text-decoration: none;
+    border: #885df5 solid 3px;
+    color: #FFF;
+    padding: 6px 0 6px 8px;  
+    border-radius: 8px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}

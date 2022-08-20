@@ -1,0 +1,5 @@
+body {
+    zoom: 50%;
+    margin: 0;
+    pointer-events: none;
+}
