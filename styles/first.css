@@ -47,9 +47,8 @@ div.user {
 }
 
 img#user {
-    height: 99%;
-    width: 99%;
-    border: #885df5 solid 3px;
+    height: 95%;
+    width: 95%;
     border-radius: 50%;
 }
 
