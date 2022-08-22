@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Handsome Boys';
+    src: URL('../fonts/HandsomeBoys-2OXRv.ttf') format('truetype');
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #121214;
     -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-    font-family: 'Handsome Boys';
-    src: URL('../fonts/HandsomeBoys-2OXRv.ttf') format('truetype');
 }
 
 section.screen {
